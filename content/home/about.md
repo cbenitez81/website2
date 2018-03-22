@@ -1,40 +1,40 @@
 +++
 # About/Biography widget.
-widget = "about"
-active = true
+
 date = "2016-04-20T00:00:00"
+draft = false
+
+widget = "about"
 
 # Order that this section will appear in.
-weight = 5
+weight = 1
 
 # List your academic interests.
 [interests]
   interests = [
     "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Functional data Analysis",
+    "Face perception, recognition and expressions",
+    "Classical machine learning (kernel methods, lda e.t.c)"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "PhD in Electrical and Computer Engineering"
+  institution = "The Ohio State University"
+  year = 2015
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
+  course = "MS in Electrical and Computer Engineering"
+  institution = "University of Puerto Rico"
   year = 2008
+
+[[education.courses]]
+  course = "BSc in Electronics Engineering"
+  institution = "Pontificia Universidad Javeriana"
+  year = 2004
  
 +++
 
 # Biography
-
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+C. Fabian Benitez-Quiroz is postdoctoral researcher at Computational Biology and Cognitive Science lab@Ohio State. He received  the  B.S.  degree  in  electrical  engineering from Pontificia Universidad Javeriana, Cali,Colombia, and the M.S. degree in electrical engineering  from  the  University  of  Puerto  Rico,Mayaguez, Puerto Rico, in 2004 and 2008, and a PhD in Electrical and Computer Engineering from The Ohio State University (OSU) in 2015. His current research interests include the analysis of facial expressions in Wild, functional data analysis, deformable shape detection, face perception and Deep Learning.
